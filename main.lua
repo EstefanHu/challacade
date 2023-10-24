@@ -93,4 +93,5 @@ function love.draw()
         gameMap:drawLayer(gameMap.layers["trees"])
         player.anim:draw(player.spriteSheet, player.x, player.y, nil, 6, nil, 6, 9)
     cam:detach()
+    love.graphics.print("hello", 10, 10)
 end
